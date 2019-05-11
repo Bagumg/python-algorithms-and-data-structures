@@ -10,15 +10,19 @@ import sys
 def add(a, b):
     return (a + b)
 
+	
 def sub(a, b):
     return (a - b)
 
+	
 def mul(a, b):
     return (a * b)
 
+	
 def div(a, b):
     return (a / b)
 
+	
 def simple_num(n):
     lst = []
     for i in range(2, n+1):
@@ -29,6 +33,7 @@ def simple_num(n):
             lst.append(i)
     return lst
 
+	
 print(sys.getsizeof(add(2, 2)))
 print(sys.getsizeof(sub(2, 2)))
 print(sys.getsizeof(mul(2, 2)))
